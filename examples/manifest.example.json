@@ -1,0 +1,27 @@
+{
+  "schema": "songweave.manifest.v1",
+  "dataset": { "id": "local-library", "name": "My library", "kind": "real" },
+  "tracks": [
+    {
+      "track_id": "t_0000000001",
+      "title": "Song with lyrics",
+      "artist": "Artist",
+      "audio": "songs/Artist - Song with lyrics.mp3",
+      "lyrics": { "status": "available", "path": "lyrics/Artist - Song with lyrics.txt", "lang": "jpn_Jpan" }
+    },
+    {
+      "track_id": "t_0000000002",
+      "title": "Instrumental piece",
+      "artist": "Artist",
+      "audio": "songs/Artist - Instrumental piece.flac",
+      "lyrics": { "status": "instrumental_confirmed", "path": null, "lang": null }
+    },
+    {
+      "track_id": "t_0000000003",
+      "title": "Lyrics not supplied yet",
+      "artist": "Artist",
+      "audio": "songs/Artist - Lyrics not supplied yet.wav",
+      "lyrics": { "status": "not_provided", "path": null, "lang": null }
+    }
+  ]
+}

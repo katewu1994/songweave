@@ -1,0 +1,35 @@
+# Private user inputs (audio, lyrics, and manifests)
+/data/
+
+# Local exports, caches, and runtime logs
+/artifacts/
+
+# Local API credentials
+.env
+.env.*
+!.env.example
+
+# Local toolchains and virtual environments
+/.tools/
+/.venv/
+/.venvs/
+
+# Python/Node build output
+__pycache__/
+*.egg-info/
+.pytest_cache/
+/web/node_modules/
+/web/dist/
+
+# macOS
+.DS_Store
+
+# Owner keeps Markdown documents and runtime prompts local.
+*.[mM][dD]
+*.[mM][aA][rR][kK][dD][oO][wW][nN]
+
+# Local agent configuration and incremental build caches
+/.claude/
+/.codex/
+/.agents/
+*.tsbuildinfo
